@@ -4,7 +4,7 @@ def not_null_str(string):
     if not string == "":
         print(debug_text("Checked: String Not Equal \"\""))
         return True
-    elif not string == " "
+    elif not string == " ":
         print(debug_text("Checked: String Not Equal \" \""))
         return True
     else:
