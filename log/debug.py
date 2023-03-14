@@ -1,8 +1,9 @@
-import termcolor
+import colorama
 
 
 def debug(text):
-    termcolor.colored(text, "cyan")
-    # termcolor.colored(text, "light_cyan")
-    # termcolor.colored(text, "blue")
-    # termcolor.colored(text, "light_blue")
+    # print(colorama.Fore.CYAN + text + colorama.Fore.RESET)
+    print(colorama.Fore.LIGHTCYAN_EX + text + colorama.Fore.RESET)
+    # print(colorama.Fore.BLUE + text + colorama.Fore.RESET)
+    # print(colorama.Fore.LIGHTBLUE_EX + text + colorama.Fore.RESET)
+
