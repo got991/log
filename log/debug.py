@@ -7,3 +7,5 @@ def debug(text):
     # print(colorama.Fore.BLUE + text + colorama.Fore.RESET)
     # print(colorama.Fore.LIGHTBLUE_EX + text + colorama.Fore.RESET)
 
+def debug_text(text):
+    return colorama.Fore.LIGHTCYAN_EX + text + colorama.Fore.RESET
