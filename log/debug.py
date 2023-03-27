@@ -1,11 +1,9 @@
 import colorama
 
 
-def debug(text):
-    # print(colorama.Fore.CYAN + text + colorama.Fore.RESET)
+def debug(text: str):
     print(colorama.Fore.LIGHTCYAN_EX + text + colorama.Fore.RESET)
-    # print(colorama.Fore.BLUE + text + colorama.Fore.RESET)
-    # print(colorama.Fore.LIGHTBLUE_EX + text + colorama.Fore.RESET)
 
-def debug_text(text):
+
+def debug_text(text: str):
     return colorama.Fore.LIGHTCYAN_EX + text + colorama.Fore.RESET

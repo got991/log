@@ -2,14 +2,19 @@
 # licensed under the GNU Lesser General Public License v2.1
 
 from .debug import debug
+from .debug import debug_text
 from .log import log
+from .log import log_text
+from .warn import warn
+from .warn import warn_text
+# from .error import error
+# from .error import error_text
 from .set_theme import show_theme
 # from .set_theme import set_theme
-from .not_null import not_null_str
 
 
 importedLoadedInited = """ Hello World!
-Log 1.1.1 Successfully Loaded!
+Log 1.2.0 Successfully Loaded!
 """
 
 print(importedLoadedInited)
