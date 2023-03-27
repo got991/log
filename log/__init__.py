@@ -9,7 +9,7 @@ from .not_null import not_null_str
 
 
 importedLoadedInited = """ Hello World!
-Log 1.1.0 Successfully Loaded!
+Log 1.1.1 Successfully Loaded!
 """
 
 print(importedLoadedInited)
