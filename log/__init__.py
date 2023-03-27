@@ -14,7 +14,7 @@ from .set_theme import show_theme
 
 
 importedLoadedInited = """ Hello World!
-Log 1.2.0 Successfully Loaded!
+Log 1.2.1.0 Successfully Loaded!
 """
 
 print(importedLoadedInited)
